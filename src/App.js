@@ -1,26 +1,16 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
-
+import Test from './test/box'
+import {Button}  from 'antd'
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1 className='box'>superfour</h1>
+      <Test></Test>
+      <Button>注册</Button>
+      <button>提交</button>
     </div>
   );
 }
+
 
 export default App;
