@@ -8,6 +8,7 @@ function App() {
   
       <Button>注册</Button>
       <button>提交</button>
+      你好
     </div>
   );
 }
